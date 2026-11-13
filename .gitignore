@@ -1,0 +1,29 @@
+# Environments & Dependencies
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# YOLO & PyTorch model weights (large binaries)
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+!backend/models/README.md
+
+# Logs & temp files
+*.log
+runs/
+.DS_Store
+Thumbs.db
+.env
+.env.local
