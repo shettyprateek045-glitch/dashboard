@@ -1,29 +1,17 @@
-# Environments & Dependencies
-node_modules/
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Python environments and caches
 .venv/
 venv/
-env/
 __pycache__/
 *.py[cod]
-*$py.class
 
-# Build outputs
-dist/
-build/
-*.egg-info/
-
-# YOLO & PyTorch model weights (large binaries)
-*.pt
-*.pth
-*.onnx
-*.engine
-*.tflite
-!backend/models/README.md
-
-# Logs & temp files
+# Local secrets and generated files
+.env
+.env.*
 *.log
-runs/
 .DS_Store
 Thumbs.db
-.env
-.env.local
