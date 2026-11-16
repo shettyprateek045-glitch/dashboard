@@ -1,5 +1,7 @@
 # 🚀 YOLOv11 Vision Hub & Telemetry Dashboard
 
+> The TalentRank AI recruitment workspace is included separately in [`talentrank-ai/`](./talentrank-ai/), preserving this YOLOv11 application.
+
 A modern, high-performance, real-time Computer Vision dashboard designed specifically for **YOLOv11** object detection, segmentation, and analytics.
 
 Featuring both an **instant zero-install standalone dashboard** (`index.html`) and a **modular full-stack application** (React + Vite + Tailwind CSS frontend with a FastAPI + Ultralytics YOLOv11 backend).
